@@ -1,0 +1,21 @@
+<Configuration>
+	<VGpu>Enable</VGpu>
+	<Networking>Enabled</Networking>
+	<MappedFolders>
+		<MappedFolder>
+			<HostFolder>C:\WindowsSandbox\Files</HostFolder>
+			<ReadOnly>true</ReadOnly>
+		</MappedFolder>
+		<MappedFolder>
+			<HostFolder>C:\WindowsSandbox\cache</HostFolder>
+			<ReadOnly>false</ReadOnly>
+		</MappedFolder>
+		<MappedFolder>
+			<HostFolder>C:\WindowsSandbox\cache\shortcuts</HostFolder>
+			<ReadOnly>false</ReadOnly>
+		</MappedFolder>
+	</MappedFolders>
+	<LogonCommand>
+		<Command>PowerShell.exe -noprofile -noexit -executionpolicy unrestricted -file "C:\Users\WDAGUtilityAccount\Desktop\Files\Start-Launch.ps1"</Command>
+	</LogonCommand>
+</Configuration>

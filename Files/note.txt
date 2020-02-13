@@ -1,0 +1,1 @@
+Place files that you wish to be read-only inside the VM into this folder.
