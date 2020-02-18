@@ -1,3 +1,6 @@
+###Explorer edits
+reg import C:\Users\WDAGUtilityAccount\Desktop\Files\reg\file-hash-context\add.reg
+
 ###Install Chocolatey. Easymode!
 Write-Host -ForegroundColor yellow -BackgroundColor black Preparing Chocolatey....
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));
